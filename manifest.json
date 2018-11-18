@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "NYProletariat",
+    "version": "0.1",
+
+    "description": "Recipes for the people.",
+
+    "content_scripts": [
+        {
+            "matches": ["*://cooking.nytimes.com/recipes/*"],
+            "js": ["nyp.js"]
+        }
+    ]
+}
