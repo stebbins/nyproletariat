@@ -5,19 +5,44 @@ Cooking Recipe pages.
 
 ## Installation
 
-To install, clone locally:
+### Easy Installation
+
+To install, you need to download the files and add the extension to Firefox 
+manually.
+
+1. Click "Clone or download" on this page (the green button)
+2. Click "Download ZIP"
+3. Extract the files from the ZIP
+4. Drag the `nyproletariat-0.1-fx.xpi` file onto an open Firefox window
+5. Click "Add"
+6. Enjoy!
+
+Note:
+If you aren't able to drag the file into the Firefox window, you can open it 
+manually with Firefox:
+1. Right-click the `nyproletariat-0.1-fx.xpi` file
+2. Select "Open With Other Application" or similar
+3. Find and select Firefox
+4. It should open Firefox and prompt you to add NYProletariat
+5. Click "Add"
+6. Enjoy!
+
+### Command Line Installation (Recommended)
+
+You can install from the repo directly. Feel free to examine the source or the 
+packaged file, `nyproletariat-0.1-fx.xpi`.
+
+1. Clone the repo locally
+```bash
+$ git clone git@github.com:stebbins/nyproletariat.git
+```
+2. Open the signed package with Firefox from the working directory:
 
 ```bash
-git clone git@github.com:stebbins/nyproletariat.git
+$ firefox ./nyproletariat-0.1-fx.xpi
 ```
-
-Then add the extension in Firefox:
-
-1. Navigate to [about:debugging](about:debugging)
-2. Click `Load Temporary Add-on...`
-3. Navigate to the `nyproletariat` directory
-4. Select `manifest.json`
-5. Enjoy!
+3. Click `Add`
+4. Enjoy!
 
 ## Contributing
 
