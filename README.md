@@ -5,6 +5,10 @@ Cooking Recipe pages.
 
 ## Installation
 
+### Add-on Installation
+
+You can install this add-on directly at the [add-on listing](https://addons.mozilla.org/en-US/firefox/addon/nyproletariat/)
+
 ### Easy Installation
 
 To install, you need to download the files and add the extension to Firefox 
@@ -27,7 +31,7 @@ manually with Firefox:
 5. Click "Add"
 6. Enjoy!
 
-### Command Line Installation (Recommended)
+### Command Line Installation
 
 You can install from the repo directly. Feel free to examine the source or the 
 packaged file, `nyproletariat-0.1-fx.xpi`.
